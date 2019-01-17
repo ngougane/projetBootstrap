@@ -1,0 +1,139 @@
+
+.logo
+{
+  background-color: red;
+}
+
+
+.menu
+{
+  background-color: red;
+}
+.search
+{
+  background-color: yellow;
+}
+
+.fa-envelope:hover
+{
+  background-color: orange;
+}
+
+.fa-search:hover
+{
+  background-color: orange;
+}
+
+.cadre
+{
+  background-color: blue;
+}
+
+/* LIGNE 2*/
+
+}
+
+
+.buy
+{
+  background-color: blue;
+}
+
+
+.banniere
+{
+  background-color: green;
+}
+
+.logoorange
+{
+  height:40px;
+}
+
+.fa-envelope
+{
+  font-size: 30px;
+  float: right;
+}
+
+.fa-th
+{
+  font-size: 30px;
+  float: right;
+}
+
+
+.client
+{
+
+  background: #45aaf2;
+  text-align: justify;
+}
+
+.fa-user
+{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.client1
+{
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.buy
+{
+  background: #d1d8e0;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+
+.fa-shopping-cart
+{
+  font-size: 30px;
+  float: center;
+}
+
+.log
+{
+border: 1px solid black;
+}
+
+.coverflow1, .coverflow2, .coverflow3, .coverflow4
+{
+  text-align: center;
+  padding-left: 15px;
+}
+
+.coverflow
+{
+  padding-top: 30px;
+}
+
+.client:hover{
+  background-color: #7ed6df;
+}
+
+.coverflow1:hover{
+  background-color: #7ed6df;
+}
+
+.logoorange
+{
+  height: 45px;
+  padding-right: 9px;
+}
+
+.dropdown{
+  padding-right: 9px;
+}
+
+.fa-bars
+{
+  height:10px;
+}
