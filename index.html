@@ -2,24 +2,181 @@
 <html>
 <head>
 	<meta charset="utf-8" lang="fr" />
-	<title>Orange portail</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-
+	<title>Orange portail</title>
 </head>
 <body>
-
+	<!-- Navbar -->
 	<header>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="d-flex justify-content-start col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+						<nav class="navbar">
+							<div class="navbar-header">
+								<a href="#"><img src="assets/images/logo-orange.png" class="logoorange" /></a>
+							</div>
 
-	</header>
-	<section>
-		<p>test</p>
-	</section>
+							<div class="dropdown">
+								<button class="btn btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="fas fa-bars"> Menu</i>
+								</button>
+								<ul class="megamenu dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<li class="dropdown-header">Relation client</li>
+									<li><a class="dropdown-item" href="#">Espace client</a></li>
+									<li><a class="dropdown-item" href="#">Compte Orange</a></li>
+									<li><a class="dropdown-item" href="#">Aide et contact</a><li>
+									<li><a class="dropdown-item" href="#">Forum d'entraide</a><li>
+
+									<li class="dropdown-header">Divertissement</li>
+									<li><a class="dropdown-item" href="#">TV</a></li>
+									<li><a class="dropdown-item" href="#">Vidéo à la demande</a></li>
+									<li><a class="dropdown-item" href="#">Musique</a></li>
+									<li><a class="dropdown-item" href="#">Jeux</a><li>
+
+									<li class="dropdown-header">Relation client</li>
+									<li><a class="dropdown-item" href="#">Actualités</a></li>
+									<li><a class="dropdown-item" href="#">Auto</a></li>
+									<li><a class="dropdown-item" href="#">Finance</a><li>
+									<li><a class="dropdown-item" href="#">Sports</a><li>
+								</ul>
+
+							</div>
+
+							<form class="form-inline">
+								<input class="form-control-sm" type="search" placeholder="" aria-label="Search">
+								<button class="btn btn-outline-success btn-sm" type="submit"><i class="fas fa-search"></i></button>
+
+
+							</div>
+						</nav>
+
+
+
+
+
+
+
+				<!-- messagerie -->
+				<div class="col-4 col-sm-4 col-md-4 col-lg-1 offset-lg-2 col-xl-2 offset-xl-2">
+					<div class="mail">
+					<i class="fas fa-envelope"></i>
+					</div>
+				</div>
+
+
+				<!-- cadre -->
+				<div class="col-4 col-sm-4 col-md-4 col-lg-1 col-xl-1">
+					<div class="cadre">
+						<i class="fas fa-th"></i>
+
+
+
+					</div>
+				</div>
+
+				<!-- login -->
+				<div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="login">
+						<button type="button" class="log btn btn-light" data-toggle="modal" data-target=".bd-example-modal-xl">Identifiez-vous</button>
+					</div>
+				</div>
+	</div>
+			<!--   LIGNE 2 -->
+			<div class="row">
+
+
+				<!-- Espace client -->
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+					<div class="client">
+						<i class="far fa-user"></i>
+						<p class="client1">Espace client</p>
+						<p class="client1">Gérez votre offre, vos factures, <br>
+							vos consos et vos équipements sur orange.fr</p>
+						</div>
+					</div>
+					<!-- Coverflow-->
+
+
+
+
+					<div class="coverflow col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="row">
+
+
+							<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+								<div class="coverflow1">
+									<img src="assets/images/mail3.png" alt="mail">
+									<p>Mail</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+								<div class="coverflow2">
+									<img src="assets/images/orange-bank.png" class="orangebank" alt="orange-bank">
+									<p>Orange Bank</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+
+
+							<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+								<div class="coverflow3">
+									<img src="assets/images/application.png" alt="orange-bank">
+									<p>Assistance</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+								<div class="coverflow4">
+									<i class="fas fa-shopping-cart"></i>
+									<p>Boutique</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Fin Coverflow-->
+
+					<!-- Buy -->
+					<div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2" id="test">
+						<div class="buy">
+							<p class="buy1">Protection de votre mobile</p>
+							<p class="buy1">Découvrez nos solutions adaptées en 24h en cas de vol, casse ou perte</p>
+
+						</div>
+					</div>
+
+
+					<!-- Banniere animé -->
+					<div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5" id="test1">
+						<div class="banniere">
+							<img src="assets/images/banniere.jpg" class ="banniere1"alt="banniere">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</header>
+
+<!-- NOTE: FIN NAVBAR -->
+
+<!-- NOTE: DEBUT FOOTER -->
+
 	<footer>
 
 		<!-- NOTE: container fluid + contenair +row socialmedia-->
