@@ -1,17 +1,9 @@
 
-.logo
+.megamenu
 {
-  background-color: red;
-}
-
-
-.menu
-{
-  background-color: red;
-}
-.search
-{
-  background-color: yellow;
+  height: 600px;
+  width: 900px;
+  background-color: white;
 }
 
 .fa-envelope:hover
@@ -24,25 +16,12 @@
   background-color: orange;
 }
 
-.cadre
-{
-  background-color: blue;
-}
-
 /* LIGNE 2*/
 
-}
-
-
-.buy
+.banniere1
 {
-  background-color: blue;
-}
-
-
-.banniere
-{
-  background-color: green;
+  height: 200px;
+  width: 420px;
 }
 
 .logoorange
@@ -53,19 +32,24 @@
 .fa-envelope
 {
   font-size: 30px;
-  float: right;
+  padding-top: 10px;
+  float:right;
 }
 
 .fa-th
 {
   font-size: 30px;
-  float: right;
+  padding-top: 10px;
 }
 
+.log
+{
+  margin-top: 7px;
+  border: 1px solid black;
+}
 
 .client
 {
-
   background: #45aaf2;
   text-align: justify;
 }
@@ -88,8 +72,10 @@
 {
   background: #d1d8e0;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-left: 10px;
+  height:200px;
+  width: 190px;
 }
 
 
@@ -99,28 +85,27 @@
   float: center;
 }
 
-.log
-{
-border: 1px solid black;
-}
 
 .coverflow1, .coverflow2, .coverflow3, .coverflow4
 {
+  height: 80px;
+  width: 80px;
   text-align: center;
   padding-left: 15px;
 }
 
 .coverflow
 {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .client:hover{
   background-color: #7ed6df;
 }
 
-.coverflow1:hover{
-  background-color: #7ed6df;
+.coverflow1:hover, .coverflow2:hover, .coverflow3:hover, .coverflow4:hover
+{
+  background-color: #E0E0E0;
 }
 
 .logoorange
@@ -136,4 +121,18 @@ border: 1px solid black;
 .fa-bars
 {
   height:10px;
+}
+
+@media screen and (max-width: 1000px){
+  #test,#test1 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .fa-envelope{
+            float:left;
+        }
+
 }
